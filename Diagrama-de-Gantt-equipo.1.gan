@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2016-01-04" view-index="0" gantt-divider-location="470" resource-divider-location="301" version="2.0">
+    <description/>
+    <view zooming-state="default:3" id="gantt-chart"/>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="55" order="0"/>
+        <field id="1" name="Función" width="44" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <calendar id="1" name="default">
+                <default-week sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+                <overriden-day-types/>
+                <days/>
+            </calendar>
+        </day-types>
+        <date year="2016" month="2" date="1"/>
+        <date year="2016" month="3" date="21"/>
+        <date year="2016" month="3" date="22"/>
+        <date year="2016" month="3" date="23"/>
+        <date year="2016" month="3" date="24"/>
+        <date year="2016" month="3" date="25"/>
+    </calendars>
+    <tasks color="#8cb6ce">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Analisis" color="#8cb6ce" meeting="false" start="2016-01-08" duration="59" complete="0" priority="1" expand="true">
+            <task id="2" name="Elaboración de canvas" color="#8cb6ce" meeting="false" start="2016-01-08" duration="5" complete="0" priority="1" expand="true"/>
+            <task id="4" name="Elaboración de diagrama de Gantt" color="#8cb6ce" meeting="false" start="2016-01-15" duration="1" complete="0" priority="1" expand="true"/>
+            <task id="1" name="Descripción de la problemática" color="#8cb6ce" meeting="false" start="2016-01-15" duration="5" complete="0" priority="1" expand="true"/>
+            <task id="3" name="Definición de objetivos" color="#8cb6ce" meeting="false" start="2016-01-15" duration="5" complete="0" priority="1" expand="true">
+                <task id="5" name="objetivo general" color="#8cb6ce" meeting="false" start="2016-01-15" duration="2" complete="0" priority="1" expand="true"/>
+                <task id="6" name="Objetivos específicos" color="#8cb6ce" meeting="false" start="2016-01-19" duration="3" complete="0" priority="1" expand="true"/>
+            </task>
+            <task id="7" name="Definición de alcance" color="#8cb6ce" meeting="false" start="2016-01-15" duration="5" complete="0" priority="1" expand="true"/>
+            <task id="9" name="Análisis de Benchmarking" color="#8cb6ce" meeting="false" start="2016-01-22" duration="5" complete="0" priority="1" expand="true"/>
+            <task id="10" name="Cuestionario" color="#8cb6ce" meeting="false" start="2016-01-22" duration="5" complete="0" priority="1" expand="true"/>
+            <task id="11" name="Entrevista" color="#8cb6ce" meeting="false" start="2016-01-22" duration="5" complete="0" priority="1" expand="true"/>
+            <task id="12" name="Elaboración de scrum" color="#8cb6ce" meeting="false" start="2016-01-22" duration="5" complete="0" priority="1" expand="true"/>
+            <task id="13" name="Levantamiento de requerimientos" color="#8cb6ce" meeting="false" start="2016-01-25" duration="4" complete="0" priority="1" expand="true"/>
+            <task id="14" name="Análisis de requerimientos" color="#8cb6ce" meeting="false" start="2016-01-29" duration="4" complete="0" priority="1" expand="true"/>
+            <task id="27" name="Especificaciones del equipo" color="#8cb6ce" meeting="false" start="2016-02-05" duration="2" complete="0" priority="1" expand="true"/>
+            <task id="15" name="Especificaciones del equipo donde se alojara la aplicación" color="#8cb6ce" meeting="false" start="2016-02-05" duration="2" complete="0" priority="1" expand="true"/>
+            <task id="16" name="Actualización del diagrama de gantt" color="#8cb6ce" meeting="false" start="2016-02-05" duration="2" complete="0" priority="1" expand="true"/>
+            <task id="17" name="Revisión de scrum" color="#8cb6ce" meeting="false" start="2016-02-08" duration="1" complete="0" priority="1" expand="true"/>
+            <task id="22" name="Elaboración de diagramas UML" color="#8cb6ce" meeting="false" start="2016-02-12" duration="35" complete="0" priority="1" expand="true">
+                <task id="24" name="Diagramas de caso de uso" color="#8cb6ce" meeting="false" start="2016-02-12" duration="10" complete="0" priority="1" expand="true"/>
+                <task id="18" name="caso de uso" color="#8cb6ce" meeting="false" start="2016-02-26" duration="10" complete="0" priority="1" expand="true"/>
+                <task id="19" name="Diagrama de actividades" color="#8cb6ce" meeting="false" start="2016-03-11" duration="5" complete="0" priority="1" expand="true"/>
+                <task id="20" name="Diagrama de secuencias" color="#8cb6ce" meeting="false" start="2016-03-18" duration="5" complete="0" priority="1" expand="true"/>
+                <task id="21" name="Diagrama de clases" color="#8cb6ce" meeting="false" start="2016-04-01" duration="5" complete="0" priority="1" expand="true"/>
+            </task>
+        </task>
+        <task id="23" name="Diseño" color="#8cb6ce" meeting="false" start="2016-04-08" duration="10" complete="0" priority="1" expand="true">
+            <task id="25" name="Diseño de prototipos" color="#8cb6ce" meeting="false" start="2016-04-08" duration="5" complete="0" priority="1" expand="true"/>
+            <task id="26" name="Diseño de interfaces" color="#8cb6ce" meeting="false" start="2016-04-15" duration="5" complete="0" priority="1" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <taskdisplaycolumns>
+        <displaycolumn property-id="tpd3" order="0" width="180"/>
+        <displaycolumn property-id="tpd4" order="1" width="32"/>
+        <displaycolumn property-id="tpd5" order="2" width="31"/>
+    </taskdisplaycolumns>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
